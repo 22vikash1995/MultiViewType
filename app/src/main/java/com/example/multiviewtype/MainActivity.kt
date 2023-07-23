@@ -29,12 +29,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getNewsData(): List<DataModel> = listOf(
-        DataModel.ShortNews(R.drawable.ic_launcher_background,"Title1"),
-        DataModel.LongNews(R.drawable.ic_launcher_background,"LongTitle1","LongDesc",4),
-        DataModel.ShortNews(R.drawable.ic_launcher_background,"Title2"),
-        DataModel.LongNews(R.drawable.ic_launcher_background,"LongTitle2","LongDesc",4),
-        DataModel.ShortNews(R.drawable.ic_launcher_background,"Title3"),
-        DataModel.LongNews(R.drawable.ic_launcher_background,"LongTitle3","LongDesc",4)
+        DataModel.ShortNews(R.drawable.news1,"Title1"),
+        DataModel.LongNews(R.drawable.news2,"LongTitle1","LongDesc",4),
+        DataModel.ShortNews(R.drawable.news1,"Title2"),
+        DataModel.LongNews(R.drawable.images,"LongTitle2","LongDesc",4),
+        DataModel.ShortNews(R.drawable.download,"Title3"),
+        DataModel.LongNews(R.drawable.news1,"LongTitle3","LongDesc",4)
     )
 
 }
